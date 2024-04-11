@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="bg-gray-400 h-screen w-screen flex justify-center pt-10">
-        <div className="AllCompsss">
+        <div className="AllCompsssss">
           <BtnPage />
         </div>
 
