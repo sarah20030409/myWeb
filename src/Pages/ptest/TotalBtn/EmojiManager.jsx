@@ -1,5 +1,5 @@
 
-export default function PointsCounter({Point}){
+export default function EmojiManager({Point}){
     
     function emoji(){
         if (Point >=0 && Point <=2){
@@ -24,7 +24,7 @@ export default function PointsCounter({Point}){
 
     return(
         <>
-        <h1 className="text-center text-6xl pb-5 font-thin">{emoji(Point)}</h1>
+        <h1 className="text-center text-white text-6xl pb-5 font-black">{emoji(Point)}</h1>
         </>
     );
 }

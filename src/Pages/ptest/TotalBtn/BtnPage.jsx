@@ -1,6 +1,6 @@
 import { useState } from "react";
-import BtnCounter from "./BTN";
-import PointsCounter from "./PointsCount";
+import SingleBTN from "./SingleBTN";
+import EmojiManager from "./EmojiManager";
 
 
 export function AllBtnPage({count,setCount}){
@@ -9,9 +9,9 @@ export function AllBtnPage({count,setCount}){
     return(
         <>
         <div>
-        <BtnCounter name={'BTN-1'} clickB={handleCount} />
-        <BtnCounter name={'BTN-2'} clickB={handleCount} />
-        <BtnCounter name={'BTN-3'} clickB={handleCount} />
+        <SingleBTN name={'BTN-1'} clickB={handleCount} />
+        <SingleBTN name={'BTN-2'} clickB={handleCount} />
+        <SingleBTN name={'BTN-3'} clickB={handleCount} />
         </div>
         </>
     );
@@ -23,7 +23,7 @@ export default function BtnPage(){
     return(
         <>
           {/* EMOJI */}
-          <PointsCounter Point={count} />
+          <EmojiManager Point={count} />
 
           {/* BTN AREA */}
             <AllBtnPage count={count} setCount={setCount}/>

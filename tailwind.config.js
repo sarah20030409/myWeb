@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     boxShadow: {
-      myStyle: "0 3px 3px 0 #A040A0",
+      myStyle: "0 3px 3px 0 #FFFF00",
     },
   },
   plugins: [],

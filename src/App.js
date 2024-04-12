@@ -4,13 +4,14 @@ import TestScript from "./Pages/ptest/TotalBtn/ForTest";
 function App() {
   return (
     <>
-      <div className="bg-gray-400 h-screen w-screen flex justify-center pt-10">
-        <div className="AllCompsssss">
+      <div className="bg-blue-400 h-screen w-screen flex justify-center pt-10">
+        <div className="AllComps">
+          {/* I put all the components in <BtnPage/> both emoji & btn */}
           <BtnPage />
         </div>
 
         <div className="TestArea">
-          {/* 如果觸發按鈕後，讓Q後面的數字改變達到頁面渲染 */}
+          {/* If the button is triggered, let the number behind Q change to page rendering */}
           {/* <TestScript title={"Q" + 1} /> */}
         </div>
       </div>
