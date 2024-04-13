@@ -1,0 +1,103 @@
+/* animationName:'scrollBar 5s linear infinite' */
+
+/* UxU Anim*/
+@keyframes UxUAnim{
+    0%{
+        transform:translateY(100px) ;
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+
+.emojiUxU{
+  animation-name:UxUAnim;
+  animation-duration:0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode:forwards;
+}
+
+
+/* UuU Anim*/
+@keyframes UuUAnim{
+    0%{
+        transform:translateY(15px) ;
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.emojiUuU{
+  animation-name:UuUAnim;
+  animation-duration:0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode:forwards;
+}
+
+/* UAU Anim*/
+@keyframes UAUAnim{
+    0%{
+        transform:translateY(-100px) ;
+    }
+    100%{
+        transform: translateY(-210px);
+    }
+}
+
+.emojiUAU{
+  animation-name:UAUAnim;
+  animation-duration:0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode:forwards;
+}
+
+/* OAO Anim*/
+@keyframes OAOAnim{
+    0%{
+        transform:translateY(-210px) ;
+    }
+    100%{
+        transform: translateY(-320px);
+    }
+}
+
+.emojiOAO{
+    animation-name:OAOAnim;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+/* TAT Anim*/
+@keyframes TATAnim{
+    0%{
+        transform:translateY(-320px) ;
+    }
+    100%{
+        transform: translateY(-435px);
+    }
+}
+
+.emojiTAT{
+    animation-name:TATAnim;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+/* OuO Anim*/
+@keyframes OuOAnim{
+    0%{
+        transform:translateY(-435px) ;
+    }
+    100%{
+        transform: translateY(-545px);
+    }
+}
+.emojiOuO{
+    animation-name:OuOAnim;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}

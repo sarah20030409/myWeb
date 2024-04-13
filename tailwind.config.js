@@ -6,6 +6,7 @@ module.exports = {
     boxShadow: {
       myStyle: "0 3px 3px 0 #FFFF00",
     },
+    animation: {},
   },
   plugins: [],
 };
